@@ -7,5 +7,63 @@ html,body,h1,h2,h3,h4,p,a,ul,li,div{
 /* Global styles */
 body{
     font-size:16px;
-    font-family:Helvetica,Arial,sans-serif;
+    font-family:Helvetica;
+}
+
+.content {
+  color: blue;
+}
+
+.sidebar {
+  color: red;
+}
+
+.content p, .sidebar p{
+  font-family: Georgia;
+}
+
+header {
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 3px solid black;
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+
+.content {
+  width: 66.66%;
+  /*margin: 0 1%;*/
+  position: relative;
+  float: left;
+}
+
+#lead {
+  width: 98%;
+  margin: 0 1%;
+}
+
+.article {
+  padding: 10px 0 15px 0;
+}
+
+.article h2 {
+  font-size: 1.2em;
+}
+
+#lead, .sidebar {
+  font-size: 1.8em;
+}
+
+.content .article {
+  width: 48%;
+  margin: 0 1%;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid blue;
+}
+
+.sidebar {
+  width: 33.33%;
+  position: relative;
+  float: right;
 }
